@@ -8,11 +8,13 @@ const getAdvice = () => {
 };
 
 const displayAdvice = (data) => {
-  const advice = data.slip.advice
-  const id = data.slip.id
 
-  document.getElementById('advice-text').innerHTML = advice
-  document.getElementById('advice-texta').innerHTML = id
+  const id = data.slip.id
+  const advice = data.slip.advice
+
+  document.getElementById('advice-id').innerHTML = "ADVICE #" + id
+  // document.getElementById('advice-text').innerHTML = '"' + advice + '"'
 };
+
 
 getAdvice()

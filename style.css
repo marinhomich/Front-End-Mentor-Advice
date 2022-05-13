@@ -1,17 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
 
 :root {
     --light-cyan: hsl(193, 38%, 86%);
     --neon-green: hsl(150, 100%, 66%);
     --grayish-blue: hsl(217, 19%, 38%);
-    --dark-grayish-blue: hsl(217, 19%, 24%);
-    --dark-blue: hsl(218, 23%, 16%);
+    --dark-grayish-blue: hsl(218, 20%, 24%);
+    --dark-blue: hsl(220, 22%, 16%);
 }
 
 body{
+    background: var(--dark-blue);
     font-family: 'Manrope', sans-serif;
+    color: red;
+}
+
+.center{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .quote{
+    margin: 0 auto;
+    width: 540px;
+    background: var(--dark-grayish-blue);
+    color: var(--light-cyan);
     font-size: 28px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#advice-id{
+    color: var(--neon-green);
+    font-size: 12px;
+    letter-spacing: 6px;
+    padding-top: 40px;
+}
+.text-quote{
+    padding: 0px 35px 35px 35px;
 }
