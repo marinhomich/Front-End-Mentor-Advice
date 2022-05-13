@@ -13,7 +13,7 @@ const displayAdvice = (data) => {
   const advice = data.slip.advice
 
   document.getElementById('advice-id').innerHTML = "ADVICE #" + id
-  // document.getElementById('advice-text').innerHTML = '"' + advice + '"'
+  document.getElementById('advice-text').innerHTML = '"' + advice + '"'
 };
 
 

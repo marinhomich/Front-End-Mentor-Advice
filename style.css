@@ -44,3 +44,26 @@ body{
 .text-quote{
     padding: 0px 35px 35px 35px;
 }
+
+.teste{
+    background: var(--neon-green)
+}
+
+.dice {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice img {
+    width: 24px;
+    height: 24px;
+}
